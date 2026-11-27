@@ -1,0 +1,18 @@
+{
+  "name": "aiva-plugins",
+  "owner": {
+    "name": "Aiva"
+  },
+  "metadata": {
+    "description": "Plugin chính thức của Aiva (v5.aiva.vn): nối Claude với Aiva, đưa Agent lên Kho, đóng phong bì chuẩn Aiva."
+  },
+  "plugins": [
+    {
+      "name": "aiva",
+      "source": "./plugins/aiva",
+      "version": "1.0.0",
+      "homepage": "https://v5.aiva.vn",
+      "description": "Plugin Aiva: nối Claude với không gian Aiva (Cầu MCP), đưa cả thư mục hoặc zip skill/Agent lên Kho riêng trong một câu, tự đóng phong bì chuẩn Aiva, gợi ý giao Agent cho nhân sự AI."
+    }
+  ]
+}

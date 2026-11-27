@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "aiva": {
+      "type": "http",
+      "url": "https://v5.aiva.vn/api/public/bridge"
+    }
+  }
+}
