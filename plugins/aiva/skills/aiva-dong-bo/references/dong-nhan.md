@@ -1,7 +1,7 @@
 # Nhãn phong bì Aiva (ADR-025 §2, §6.3)
 
 Phong bì Aiva có hai mặt:
-- **Nhãn** là khối `metadata.aiva` trong SKILL.md. Từ khi SP-78 · 78-1 lên v5, Cầu tự đóng nhãn khi nhập: chỉ thêm phần thiếu, thân SKILL.md giữ nguyên. Trước đó, gói thiếu nhãn vẫn nhập được và chạy với vỏ chạy mặc định.
+- **Nhãn** là khối `metadata.aiva` trong SKILL.md. Từ khi SP-80 · 80-1 lên v5, Cầu tự đóng nhãn khi nhập: chỉ thêm phần thiếu, thân SKILL.md giữ nguyên. Trước đó, gói thiếu nhãn vẫn nhập được và chạy với vỏ chạy mặc định.
 - **Vỏ chạy** là 8 mục Cầu bọc ở mỗi lần `begin_work`. Bạn không tự viết vỏ chạy, cũng không chép ĐẦU/ĐUÔI Aiva vào thân skill.
 
 Khi người dùng muốn nhãn đẹp hơn bản máy điền, gợi ý họ tự khai trong SKILL.md:
@@ -35,7 +35,7 @@ Trường máy điền được ghi trong `metadata.aiva.imported.inferred`. Tra
 | Lớp | Bản |
 |---|---|
 | Plugin Aiva | 1.0.0 |
-| Cầu Aiva | bản có `import_skill.files[]` (SP-73) · đóng nhãn từ SP-78 |
+| Cầu Aiva | bản có `import_skill.files[]` (SP-73) · đóng nhãn từ SP-80 |
 | Gói chở | `aiva.bundle.v1` |
 | Nhãn | `aiva.core.v2` |
 | Vỏ chạy | `aiva.envelope.v1` |

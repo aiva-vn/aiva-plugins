@@ -12,4 +12,4 @@ Không gian: <tên> (<vai của người dùng nếu có>) · <số nhân sự> 
 
 - Không có công cụ Aiva → in «Chưa nối Aiva: thêm connector Aiva (https://v5.aiva.vn/api/public/bridge) rồi mở chat mới».
 - `start.plugin.min` lớn hơn 1.0.0 → thêm dòng «Bản này đã cũ, cần cập nhật».
-- `start` chưa có `plugin` hay `versions` (Cầu trước SP-78) → in «chưa báo» ở chỗ thiếu, không đoán.
+- `start` chưa có `plugin` hay `versions` (Cầu trước SP-80) → in «chưa báo» ở chỗ thiếu, không đoán.
