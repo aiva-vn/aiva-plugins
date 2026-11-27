@@ -1,5 +1,5 @@
 ---
-description: Đưa cả thư mục hoặc tệp zip skill/Agent lên Kho Aiva (Plugin Aiva 1.0.0)
+description: Đưa cả thư mục hoặc tệp zip skill/Agent lên Kho Aiva (Plugin Aiva 1.0.1)
 argument-hint: <đường dẫn thư mục hoặc .zip>
 ---
 

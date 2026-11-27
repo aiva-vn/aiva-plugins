@@ -3,7 +3,7 @@ name: aiva-dong-bo
 description: "Đưa cả thư mục hoặc tệp zip skill/Agent của người dùng (plugin Claude, gói ChatGPT, thư mục SKILL.md) lên Kho Aiva trong một câu: tự đọc, nhận dạng, bỏ rác, gửi đủ tệp kèm, hỏi một lần, nhập, gợi ý giao cho nhân sự. Dùng khi người dùng nói «đưa thư mục này lên Aiva», «đồng bộ skill lên Kho», «/aiva-sync», hoặc kéo zip skill vào chat."
 metadata:
   aiva:
-    version: "1.0.0"
+    version: "1.0.1"
     core:
       schema: aiva.core.v2
       uses_when: "Đưa thư mục hoặc zip skill lên Kho Aiva"
@@ -25,7 +25,7 @@ metadata:
 
 # Đồng bộ Aiva · đưa thư mục/zip Agent lên Kho
 
-Plugin Aiva **1.0.0**. Bạn chạy trong Claude hoặc ChatGPT đã nối Aiva (công cụ `start`, `search_skills`, `import_skill`, `list_staff`, `install_package`).
+Plugin Aiva **1.0.1**. Bạn chạy trong Claude hoặc ChatGPT đã nối Aiva (công cụ `start`, `search_skills`, `import_skill`, `list_staff`, `install_package`).
 - **Bạn làm phần nặng:** giải nén, duyệt thư mục, nhận dạng, đọc tệp.
 - **Aiva làm phần đúng:** kiểm, đóng nhãn phong bì, cất vào Kho riêng có phiên bản, đọc lại tệp kèm khi Agent chạy.
 
@@ -34,7 +34,7 @@ Aiva không đọc được ổ đĩa của người dùng. Xưng «mình», g�
 ## 0 · Kiểm nối và bản
 1. Gọi `start`.
    - Không có công cụ Aiva → nói: «Bạn chưa nối Aiva. Vào v5.aiva.vn › Cài đặt › Kết nối rồi mở chat mới.» Dừng.
-   - `start.plugin` có mặt (Cầu từ SP-80) và `start.plugin.min` lớn hơn **1.0.0** → nói một câu «Plugin Aiva của bạn đã cũ, tải bản <latest> tại <download>», rồi vẫn làm tiếp. Không có `start.plugin` thì bỏ qua bước này.
+   - `start.plugin` có mặt (Cầu từ SP-80) và `start.plugin.min` lớn hơn **1.0.1** → nói một câu «Plugin Aiva của bạn đã cũ, tải bản <latest> tại <download>», rồi vẫn làm tiếp. Không có `start.plugin` thì bỏ qua bước này.
 2. Chỉ chủ hoặc quản trị không gian đưa được Agent vào Kho. Người khác nhận lỗi quyền → nói thật, gợi ý nhờ chủ không gian.
 
 ## 1 · Lấy tệp

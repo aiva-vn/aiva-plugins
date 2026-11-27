@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "aiva",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Plugin Aiva: nối ChatGPT với không gian Aiva, đưa cả thư mục hoặc zip skill/Agent lên Kho riêng trong một câu, tự đóng phong bì chuẩn Aiva, gợi ý giao Agent cho nhân sự AI.",
   "author": { "name": "Aiva" }
 }

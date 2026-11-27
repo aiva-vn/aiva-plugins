@@ -5,7 +5,7 @@ description: Xem bản Plugin Aiva, bản Cầu, không gian và đội đang n�
 Gọi công cụ `start` của Aiva, rồi in đúng 3 dòng:
 
 ```
-Plugin Aiva 1.0.0 · <«mới nhất» nếu start.plugin.latest = 1.0.0, không thì «có bản <latest>: <download.claude>»>
+Plugin Aiva 1.0.1 · <«mới nhất» nếu start.plugin.latest = 1.0.1, không thì «có bản <latest>: <download.claude>»>
 Cầu Aiva <start.versions.bridge> · phong bì <start.versions.core> / <start.versions.envelope>
 Không gian: <tên> (<vai của người dùng nếu có>) · <số nhân sự> nhân sự · <số việc chờ> việc chờ
 ```

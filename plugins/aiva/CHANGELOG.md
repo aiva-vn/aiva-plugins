@@ -6,6 +6,11 @@ Luật đánh số (ADR-025 §3, V1):
 - Bỏ hoặc đổi nghĩa lệnh, công cụ → tăng bản chính. Cầu vẫn nhận bản cũ ít nhất 90 ngày.
 - `version` trong `.claude-plugin/plugin.json` và `plugin.json` luôn cùng số với `PLUGIN_AIVA.latest` (`src/transports/phong-bi-nhap.ts`).
 
+## 1.0.1 · 27/11/2026 (SP-80)
+- Skill `aiva-core` 1.0.4 → **1.0.5** (bản trong Kho sau SP-72 72-5: sổ lịch Agent chạy ở host).
+- Skill `aiva-dong-bo` 1.0.1: thêm cách xử lý `BASE_VERSION_NOT_FOUND`, `TOO_LARGE`, `INCOMPLETE_UPLOAD` của SP-73; chữ số bản.
+- Tệp tải đổi tên theo bản: `aiva-plugin-1.0.1-*.zip`.
+
 ## 1.0.0 · 27/11/2026 (SP-80)
 - Connector `aiva` → Cầu Aiva `https://v5.aiva.vn/api/public/bridge`. Cần Cầu có `import_skill.files[]` + `upload` (SP-73 · 73-2, khe 73c) trên v5.
 - Skill `aiva-core` 1.0.4 (Trợ lý Aiva, chép nguyên bản trong Kho).
